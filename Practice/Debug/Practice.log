@@ -1,0 +1,6 @@
+﻿  main.cpp
+  Plane.cpp
+c:\users\vladimir\documents\visual studio 2015\projects\practice\practice\plane.cpp(10): warning C4101: 'surface': unreferenced local variable
+  Generating Code...
+  Practice.vcxproj -> C:\Users\Vladimir\documents\visual studio 2015\Projects\Practice\Debug\Practice.exe
+  Practice.vcxproj -> C:\Users\Vladimir\documents\visual studio 2015\Projects\Practice\Debug\Practice.pdb (Partial PDB)
