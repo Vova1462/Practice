@@ -136,16 +136,16 @@ namespace Modeling3D
 
 	void PolyModel::AddTriangle(Point p1, Point p2, Point p3)
 	{
-		int max_trianglee_index = Triangles.size() - 1;
+		int max_point_index = Points.size() - 1;
 
 		Points.push_back(p1);
 		Points.push_back(p2);
 		Points.push_back(p3);
 
 		Triangle tr;
-		tr.V[0] = max_trianglee_index + 1;
-		tr.V[1] = max_trianglee_index + 2;
-		tr.V[2] = max_trianglee_index + 3;
+		tr.V[0] = max_point_index + 1;
+		tr.V[1] = max_point_index + 2;
+		tr.V[2] = max_point_index + 3;
 
 		Triangles.push_back(tr);
 
